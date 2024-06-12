@@ -20,9 +20,10 @@ News Aggregator is a web application built with FastAPI that fetches and aggrega
 
 1. **Clone the repository:**
 
-```sh
-git clone https://github.com/al4an2/news_aggregator.git
-cd news_aggregator
+    ```sh
+    git clone https://github.com/al4an2/news_aggregator.git
+    cd news_aggregator
+    ```
 
 2. **Create and activate a virtual environment:**
 
@@ -75,7 +76,7 @@ cd news_aggregator
     ```sh
     curl "http://127.0.0.1:8000/news?query=python"
     ```
-    
+
 ## Docker Deployment
 
 1. **Build the Docker image:**
@@ -94,10 +95,6 @@ cd news_aggregator
 
     Visit `http://127.0.0.1:8000/docs` to view the API documentation.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
